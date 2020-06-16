@@ -4,9 +4,9 @@
 
 * Heroku URL:  [https://polimi-hyp-2018-team-10532347.herokuapp.com/](https://polimi-hyp-2018-team-10532347.herokuapp.com/)
 * Bitbucket repo URL: [https://bitbucket.org/polimihyp2018team10532347/polimi-hyp-2018-project/src/master/](https://bitbucket.org/polimihyp2018team10532347/polimi-hyp-2018-project/src/master/)
-* Team administrator: Giacomo, Ziffer, 10532347, polimi-hyp-2018-10532347 (Bitbucket username)
-* Team member n.2 : Antonio, Urbano, 10527285, polimi-hyp-2018-10527285 (Bitbucket username)
-* Team member n.3 : Enrico, Voltan, 10525467, polimi-hyp-2018-10525467 (Bitbucket username)
+* Team member: Giacomo, Ziffer, 10532347, polimi-hyp-2018-10532347 (Bitbucket username)
+* Team member: Antonio, Urbano, 10527285, polimi-hyp-2018-10527285 (Bitbucket username)
+* Team member: Enrico, Voltan, 10525467, polimi-hyp-2018-10525467 (Bitbucket username)
 
 ### General description
 
