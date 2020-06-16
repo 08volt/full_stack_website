@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <script src="../assets/js/jquery-3.3.1.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+            <!-- Start NAVBAR -->
+            <nav class="navbar navbar-default navbar-fixed-top text-center">
+                <div class="container-fluid">
+                    <div class="navHome navbar-header">
+                        <a class="navbar-brand navbar-text" href="../index.html" style="color: white">CareForChildren</a>
+                        <button type="button" class="navbar-toggle collapsed navbar-text" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" style="float: right">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-text navbar-right">
+                            <li><a href="../index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">About us
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="who-we-are.html">Who we are</a></li>
+                                    <li><a href="allLocations.html">Our Centers</a></li>
+                                    <li><a href="allPeople.html">Our Team</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="allServices.html">Services
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" id="navbarPages">
+                                    <li><a href="allServices.html">All Services</a></li>
+                                    <li class="divider"></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Help us</a></li>
+                            <li><a href="contact-us.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> <!-- NAVBAR -->
+
+        <div class="container-fluid" style="padding:0">
+            <!-- INTRO -->
+            <div class="row intro">
+                <div class="col-sm-12" id="nameLocation">
+                </div>
+                <div class="col-md-6">
+
+                    <h3>Address</h3>
+                    <p id="address"></p>
+                    <p id="country"></p>
+                    <h3>Timetable</h3>
+                    <ul id="timeT">
+                    </ul>
+                    <h3>Phone Contact</h3>
+                    <p id="phone"></p>
+                    <h3>Email</h3>
+                    <p id="email"></p>
+                </div>
+                <div class="col-md-6" id="imgLocation">
+                </div> <!-- locations image -->
+            </div> <!-- div INTRO -->
+
+            <hr class="external">
+
+            <div class="row intro text-center">
+                <div class="col-sm-12">
+                    <h3>What here?</h3>
+                    <div id="servInLoc">
+                    </div>
+                </div>
+            </div>
+
+            <hr class="external">
+
+            <div class="row intro">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div id="map"></div>
+                    <!--<script>
+                        function initMap() {
+                            var loc1 = {lat: 45.585878, lng: 9.272460};
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 14,
+                            center: loc1
+                            });
+                            var marker1 = new google.maps.Marker({
+                            position: loc1,
+                            map: map
+                            });
+
+                            var StringLoc1 = '<h4>CareForChildren Monza</h4><p>Via Bartolomeo Zucchi, 24, 20052 Monza MB</p>';
+                            var infoWindow1 = new google.maps.InfoWindow({
+                                content: StringLoc1
+                            });
+                            google.maps.event.addListener(marker1, 'click', function(){
+                                infoWindow1.open(map,marker1);
+                            });
+                            }
+                    </script>-->
+                    <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEaBT_aC9ne7i0ofjKRB_0iCYJ2cX0vrY&callback=initMap"></script>  <!-- script google maps-->
+
+                    <div class="col-md-2"></div>
+                </div>
+            </div> <!-- div ROW google maps -->
+
+
+            <!-- FOOTER -->
+            <footer>
+                <div class="row text-center" id="footerPages">
+                </div>  <!-- div footer -->
+            </footer>
+        </div> <!-- CONTAINER -->
+
+        <script src="../assets/js/script.js"></script>
+        <script src="../assets/js/scriptLocation.js"></script>
+    </body>
+</html>

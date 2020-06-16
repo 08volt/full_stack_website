@@ -1,0 +1,22 @@
+{
+    "footer": {
+        "name": ["Contact Us", "FAQs", "Where we are"],
+        "links": ["../pages/contact-us.html", "#", "../pages/allLocations.html"],
+        "mainLocation": {
+            "address": "Via Castelfidardo, 6, 20121 Milano MI",
+            "telephone": "1234-504-888",
+            "mail": "careForChildren@mail.com"
+        }
+    },
+    "home": {
+        "intro": "<p> <b>CareForChildren</b> is a bonded, and insured babysitting and childcare agency. Our experienced, professional staff is dedicated to providing the best possible care for your children and helping them growing up without difficulties.</p><p>Our philosophy is simple: we believe in making the time our staff members spend with your child a rewarding, nurturing experience in a happy and safe environment.</p><p>The CareForChildren provides a range of community health and support services for children and their parents/carers to give every child the best possible start in life.</p><p>Care is provided by a multidisciplinary team of child health nurses and early intervention clinicians (either social workers or psychologists).</p><p>To book an appointment at your local Child Health Centre, contact the centre closest to you. Telephone lines are open Monday to Friday (excluding public holidays), from 10.30am to 4.30pm.</p>",
+        "carousel": ["assets/img/carousel-2.jpg", "assets/img/carousel-1.jpg", "assets/img/carousel-3.jpg"],
+        "linksPeople": ["assets/img/people-3.jpg", "assets/img/people-4.jpg", "assets/img/people-2.jpg"],
+        "linksService": ["assets/img/service-1circle.jpg", "assets/img/service-5circle.jpg", "assets/img/service-3circle.jpg", "assets/img/service-4circle.jpg"],
+        "linksLocation": ["assets/img/location-1circle.jpg", "assets/img/location-2circle.jpg", "assets/img/location-3circle.jpg", "assets/img/location-4circle.jpg", "assets/img/location-5circle.jpg"]
+    },
+    "whoWeAre": {
+        "intro": "<p>CareForChildren is an association founded in 2001 in Milan. Since then he has been working to build wellness opportunities for children with disabilities, offering competent support to his parents and promoting a culture close to the rights of children with disabilities.</p><p>In the last few years our association has grown up, giving birth to many center spread in Lombardia.In our 5 beautiful locations you can find different services according to your needs and the most expert and caring staff, ready to assist children and their family</p><p>Our Centre philosophy reflects our values and beliefs. We believe all children have the right to be treated equally and with respect, regardless of race, language, ability or gender.</p><p><b>Our philosophy is:</b></p><ul><li>To provide a safe, well supervised environment for children to play, learn and develop.</li><li>To provide educational and creative programs based on individual and group interests and observations.</li><li>To enrich children's awareness of the environment and a sense of connection to the natural world around us.</li><li>To provide a total learning environment where children are free to observe, question, experiment and explore.</li><li>To promote honest and open communication with our families, respecting their rights and opinions.</li><br></ul>",
+        "links": ["../assets/img/WeAre-1.jpg", "../assets/img/WeAre-2.jpg", "../assets/img/WeAre-3.jpg", "../assets/img/WeAre-4.jpg"]
+    }
+}

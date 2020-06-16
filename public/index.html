@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+    <head>
+        <title>CareForChildren</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+            <!-- Start NAVBAR -->
+            <nav class="navbar navbar-default navbar-fixed-top text-center">
+                <div class="container-fluid">
+                    <div class="navHome navbar-header">
+                        
+                        <a class="navbar-brand navbar-text" href="#" style="color:white">CareForChildren</a>
+                        <button type="button" class="navbar-toggle collapsed navbar-text" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" style="float: right">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-text navbar-right">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">About us
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="pages/who-we-are.html">Who we are</a></li>
+                                    <li><a href="pages/allLocations.html">Our Centers</a></li>
+                                    <li><a href="pages/allPeople.html">Our Team</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" id="navbarIndex">
+                                    <li><a href="pages/allServices.html">All Services</a></li>
+                                    <li class="divider"></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Help us</a></li>
+                            <li><a href="pages/contact-us.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> <!-- NAVBAR -->
+
+        <div class="container-fluid" style="padding:0">
+        <!-- INTRO -->
+        <div class="intro text-center">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1> Welcome to CareForChildren</h1>
+                </div>
+                <hr>
+            </div>
+            <div class="row container">
+                <div class="welcome col-md-6" id="homeDescr">
+                    <p><a href="pages/who-we-are.html"><b>Read more</b></a></p>
+                </div>
+                <div id="myCarousel" class="carousel slide col-md-6" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Switch Slides -->
+                    <div class="carousel-inner" id="imgCarousel">
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div> <!-- CAROUSEL -->
+            </div> <!-- WELC + CAR -->
+       </div>  <!-- Intro -->
+
+        <hr class="external">
+        <!-- Three columns of text below the carousel -->
+        <div class="row intro">
+          <div class="col-sm-4 text-center box active topic" id="introPeopleImg">
+              <!-- img -->
+              <h2> Our Team </h2>
+              <p>Your children will be assisted by the most preparred and caring personal </p>
+              <p><a href="pages/allPeople.html"><b>Read more</b></a></p>
+          </div><!-- PEOPLE /.col-sm-4 -->
+
+
+          <div class="col-sm-4 text-center box topic" id="introLocatImg">
+              <!-- img -->
+              <h2> Our Centers </h2>
+              <p> In our 5 beautiful location you can find different services according to your needs </p>
+              <p><a href="pages/allLocations.html"><b>Read more</b></a></p>
+          </div><!-- LOCATIONS /.col-sm-4 -->
+            
+
+          <div class="col-sm-4 text-center box topic" id="introServImg">
+              <!-- img -->
+              <h2> Our Services </h2>
+              <p>In order to help your children we offer you a lot of different services</p>
+              <p><a href="pages/allServices.html"><b>Read more</b></a></p>
+          </div><!-- SERVICES /.col-sm-4 -->
+        </div><!-- /.row -->
+
+
+
+      <!-- FOOTER -->
+        <footer>
+            <div class="row text-center" id="footerIndex">
+            </div>  <!-- div footer -->
+        </footer>
+
+       </div> <!-- CONTAINER -->
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/scriptHome.js"></script>
+    </body>
+</html>

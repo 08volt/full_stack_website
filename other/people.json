@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "education": ["2002–2006 University of Virginia, BS in Psychology", "2008 Case Western Reserve University, Cleveland,Post Baccalaureate Certificate", "2009-2010 MacquarieUniversity, Master of Disability Studies"],
+        "work": [
+            {
+                "type": "Volunteer",
+                "description": "Helped provide health care and distribute medications to underprivileged patients, St. Vincent’s Health Care Clinic"
+            },
+            {
+                "type": "Instructor",
+                "description": "Taught HIV/AIDS awareness and prevention classes to local middleschool students, Norfolk, VA"
+            },
+            {
+                "type": "Volunteer",
+                "description": "Helped administer immunizations to local youth, Milan"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "education": ["2004–2008 University of Virginia, BS in Oncology", "2010 Case Western Reserve University, Cleveland,Post Baccalaureate Certificate", "2011-2013 Harvard University, Master of Relation with Disability"],
+        "work": [
+            {
+                "type": "Volunteer",
+                "description": "Helped provide health care and distribute medications to underprivileged patients, St. Vincent’s Health Care Clinic"
+            },
+            {
+                "type": "Instructor",
+                "description": "Taught HIV/AIDS awareness and prevention classes to local middleschool students, Norfolk, VA"
+            },
+            {
+                "type": "Volunteer",
+                "description": "Helped administer health care and medication to local homeless, Milan"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "education": ["2008–2012 University of Milan, BA in Psychology", "2014 University of Madrid,Post Baccalaureate Certificate", "2015 University of Milan, Master of Disability Studies"],
+        "work": [
+            {
+                "type": "Volunteer",
+                "description": "Helped provide health care and distribute medications to underprivileged patients, St. Vincent’s Health Care Clinic"
+            },
+            {
+                "type": "Instructor",
+                "description": "Taught HIV/AIDS awareness and prevention classes to local middleschool students, Norfolk, VA"
+            },
+            {
+                "type": "Volunteer",
+                "description": "Helped administer immunizations to local youth, Milan"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "education": ["2008–2012 University of Milan, BA in Psychology", "2014 University of Madrid,Post Baccalaureate Certificate", "2015 University of Milan, Master of Disability Studies"],
+        "work": [
+            {
+                "type": "Doctor",
+                "description": "Performed daily rounds; mentored residents and nurses in appropriate patient communications and treatment protocols. Evaluated and treated cases of head trauma, epileptic seizure, drug overdose, neuropathy, Parkinson’s disease, and multiple sclerosis."
+            },
+            {
+                "type": "Teaching Assistant",
+                "description": "Led discussion sections and graded student essays and exams for large lecture classes in Clinical Neuropsychology, Addiction, Experimental Psychology, Psychological and Behavioral Testing Methods, Psychopharmacology, Memory Assessment, and Sensation and Perception. Milan"
+            },
+            {
+                "type": "Volunteer",
+                "description": "Present initiatives, activities to sensitize the general public on the problems related to disability, and to promote inclusion, social engagement, and donations. Milan"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "education": ["2008–2012 University of Milan, BA in Psychology", "2014 University of Rome,Post Baccalaureate Certificate", "2015 University of Milan, Master of Disability Studies"],
+        "work": [
+            {
+                "type": "Doctor",
+                "description": "Assess, diagnose, and treat patients with several disabilites. Partner with nurses and medical technicians to communicate and implement patient care plans. Ospedale San Raffaele, Milan"
+            },
+            {
+                "type": "Instructor",
+                "description": "Taught HIV/AIDS awareness and prevention classes to local middleschool students, Milan"
+            },
+            {
+                "type": "Volunteer",
+                "description": "Helped administer immunizations to local youth, Milan"
+            }
+        ]
+    }
+]
