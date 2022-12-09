@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "knex": "^0.14.6",
     "lodash": "^4.17.10",
     "npm": "^6.1.0",
